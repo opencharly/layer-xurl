@@ -1,7 +1,7 @@
 version: 2026.232.0520
 xurl:
     candy:
-        version: 2026.200.1305
+        version: 2026.243.0100
         description: |
             xurl — X (Twitter) API CLI for posts, search, DMs, and media
             Installs the @xdevplatform/xurl npm package globally (npm -g into
@@ -12,7 +12,7 @@ xurl:
             itself after the global install. Verifiable: the xurl binary lands at
             ~/.npm-global/bin/xurl and runs `--help`.
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
+            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
         plan:
             - run: fetch the xurl platform binary — npm >=12 blocks the package postinstall (install.js) by default; run the package's own download script explicitly
               command: node "${HOME}/.npm-global/lib/node_modules/@xdevplatform/xurl/install.js"
