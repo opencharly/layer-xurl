@@ -1,7 +1,5 @@
-version: 2026.232.0520
 xurl:
     candy:
-        version: 2026.243.0100
         description: |
             xurl — X (Twitter) API CLI for posts, search, DMs, and media
             Installs the @xdevplatform/xurl npm package globally (npm -g into
