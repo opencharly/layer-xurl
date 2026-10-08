@@ -56,7 +56,6 @@ binary, then asserts the `xurl` CLI in the npm global bin and that it runs
 
 - Owning skill: `/charly-tools:xurl`
 - `/charly-coder:nodejs` — runtime dependency
-- `/charly-openclaw:openclaw-full` — metalayer that bundles xurl
 - `/charly-hermes:hermes` — companion social/messaging agent
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder
 - [`opencharly/opencharly`](https://github.com/opencharly/opencharly) — the umbrella
